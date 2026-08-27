@@ -512,14 +512,13 @@ window.MSA_LOCALES['pt-BR'] = {
       </div>
       <div class="gallery-grid" data-gallery>
         <button class="gallery-item gallery-wide" type="button" data-full="assets/images/journey/capa.webp" data-caption="Composição visual da jornada Student Ambassador, Associate e Senior."><img src="assets/images/journey/capa.webp" alt="Selos Student Ambassador, Associate e Senior sobre foto de estudante com notebook"><span>Visão da jornada</span></button>
-        <button class="gallery-item gallery-wide" type="button" data-full="assets/images/journey/perfil-msa.webp" data-caption="Perfil de Thiago Kusal no programa com o marco Senior."><img src="assets/images/journey/perfil-msa.webp" alt="Perfil de Thiago Kusal no portal Microsoft Student Ambassadors com o marco Senior"><span>Perfil no programa</span></button>
+        <button class="gallery-item gallery-wide" type="button" data-full="assets/images/journey/perfil-msa.webp" data-caption="Exemplo de perfil no programa com o marco Senior."><img src="assets/images/journey/perfil-msa.webp" alt="Exemplo de perfil no portal Microsoft Student Ambassadors com o marco Senior"><span>Exemplo de perfil no programa</span></button>
         <button class="gallery-item" type="button" data-full="assets/images/journey/swag-associate.webp" data-caption="Swag do marco Associate Student Ambassador."><img src="assets/images/journey/swag-associate.webp" alt="Camiseta preta com o selo Associate Student Ambassador"><span>Swag Associate</span></button>
         <button class="gallery-item" type="button" data-full="assets/images/journey/swag-beta.webp" data-caption="Kit do antigo marco Beta, posteriormente renomeado Associate."><img src="assets/images/journey/swag-beta.webp" alt="Kit de brindes do antigo marco Beta Student Ambassador"><span>Antigo marco Beta</span></button>
         <button class="gallery-item" type="button" data-full="assets/images/journey/swag-gold.webp" data-caption="Kit do antigo marco Gold, identidade substituída por Senior."><img src="assets/images/journey/swag-gold.webp" alt="Jaqueta e garrafa do antigo marco Gold Student Ambassador"><span>Antigo marco Gold</span></button>
         <button class="gallery-item" type="button" data-full="assets/images/journey/swag-gold-2025.webp" data-caption="Swag Gold recebido no segundo semestre de 2025."><img src="assets/images/journey/swag-gold-2025.webp" alt="Swag de Gold Student Ambassador recebido em 2025"><span>Gold em 2025</span></button>
-        <button class="gallery-item gallery-wide" type="button" data-full="assets/images/journey/atividade-em-comunidade.webp" data-caption="Atividade técnica colaborativa com estudantes."><img src="assets/images/journey/atividade-em-comunidade.webp" alt="Grupo de estudantes participa de atividade técnica colaborativa"><span>Aprendizado em comunidade</span></button>
       </div>
-      <p class="photo-credit">Foto da atividade em comunidade por <a href="https://www.pexels.com/photo/people-with-laptops-at-lecture-in-technical-school-19895774/" target="_blank" rel="noopener noreferrer">ThisIsEngineering no Pexels</a>, conforme a licença do Pexels. Imagem de capa baseada em foto de Startup Stock Photos no Pexels.</p>
+      <p class="photo-credit">Imagem de capa baseada em foto de Startup Stock Photos no Pexels.</p>
     </section>
 
     <section class="content-section" id="faq" data-searchable>
