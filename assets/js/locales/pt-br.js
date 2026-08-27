@@ -116,7 +116,7 @@ window.MSA_LOCALES['pt-BR'] = {
       <div class="rich-text">
         <p>O Student Ambassadors não é estágio, emprego nem certificação profissional, e não garante uma vaga na Microsoft. É um programa extracurricular baseado em contribuição. Também não é exclusivo de cursos de tecnologia. Estudantes de Administração, Design, Engenharia e qualquer outra área podem criar experiências úteis com tecnologias Microsoft.</p>
         <p>Você não precisa chegar como especialista. O objetivo é aprender, compartilhar e liderar com responsabilidade. O programa também oferece contato com IA, nuvem, competições como o Imagine Cup e recursos para quem deseja testar uma ideia de startup.</p>
-        <p>Thiago Kusal entrou no programa em 2024 e avançou até Senior Student Ambassador. Em agosto de 2026, ele e <a href="https://www.linkedin.com/in/jhonatan-lobo/" target="_blank" rel="noopener noreferrer">Jhonatan Lobo</a> eram os dois Seniors ativos no Brasil. Essa fotografia pode mudar à medida que novos Ambassadors avançam.</p>
+        <p class="community-disclaimer">As informações desta página foram atualizadas em agosto de 2026. A página é mantida pela comunidade de Student Ambassadors LATAM e não representa documentação oficial da Microsoft.</p>
       </div>
     </section>
 
@@ -177,6 +177,14 @@ window.MSA_LOCALES['pt-BR'] = {
       <div class="rich-text">
         <p>Registered Members recebem acesso à comunidade global de estudantes, orientadores e mentores no Discord, além de recursos, orientação e treinamento. O convite costuma chegar por email enviado por <code>sa-noreply@microsoft.com</code>.</p>
         <p>Para ficar elegível ao onboarding, conclua duas frentes: obtenha uma Microsoft Certification ou Microsoft Applied Skills emitida nos 12 meses anteriores ao onboarding e alcance a meta de uma das trilhas de contribuição. Você não precisa concluir as duas trilhas.</p>
+      </div>
+      <div class="resource-callout">
+        <div>
+          <span class="resource-label">ÁREA DO REGISTERED MEMBER</span>
+          <h3>Manual e quadro de progressão</h3>
+          <p>Registered Members podem consultar todas as regras das trilhas e acompanhar o próprio quadro de progressão no SharePoint do manual. É necessário entrar com uma conta autorizada pelo programa.</p>
+        </div>
+        <a class="button button-primary" href="https://stdntpartners.sharepoint.com/sites/StudentAmbassadorsRegisteredMembersHandbook/SitePages/" target="_blank" rel="noopener noreferrer">Abrir o SharePoint</a>
       </div>
       <div class="metric-grid">
         <article class="metric-card">
@@ -294,9 +302,22 @@ window.MSA_LOCALES['pt-BR'] = {
       </div>
 
       <div class="subsection">
-        <h3>Ferramentas opcionais</h3>
-        <p>Adicionar o ID manualmente é suficiente. A comunidade também criou soluções para automatizar o processo, como a extensão originalmente feita por Martin Brandl e a Azure Function de Barbara Forbes. O projeto original da extensão foi arquivado, e uma adaptação para o fluxo atual pode ser acompanhada no <a href="https://github.com/tkusal/ambassador-referral-linker" target="_blank" rel="noopener noreferrer">Ambassador Referral Linker</a>.</p>
-        <p class="small-note">Essas ferramentas não são produtos oficiais da Microsoft. Sempre revise a URL final.</p>
+        <h3>Ferramenta recomendada para os links</h3>
+        <div class="tool-highlight">
+          <div class="tool-copy">
+            <span class="resource-label">PROJETO DA COMUNIDADE</span>
+            <h4><a href="https://github.com/tkusal/ambassador-referral-linker" target="_blank" rel="noopener noreferrer">Ambassador Referral Linker</a></h4>
+            <p>A extensão ajuda a criar links Microsoft elegíveis com seu Contributor ID. Ela adiciona ou substitui o parâmetro <code>wt.mc_id</code>, preserva outros parâmetros e pode remover o trecho de idioma para gerar uma URL neutra.</p>
+            <p class="small-note">O projeto é independente, gratuito e de código aberto. Ele não é afiliado nem mantido pela Microsoft. Confira sempre o link final antes de compartilhar.</p>
+          </div>
+          <div class="tool-actions" aria-label="Instalar Ambassador Referral Linker">
+            <a class="store-link" href="https://chromewebstore.google.com/detail/ambassador-referral-linke/andakdkbonjlmcoocgjfanknedododlp" target="_blank" rel="noopener noreferrer"><strong>Chrome</strong><span>Instalar pela Chrome Web Store</span></a>
+            <a class="store-link" href="https://microsoftedge.microsoft.com/addons/detail/nbjblhjldkjffghlpnjlnccjeljehjbh" target="_blank" rel="noopener noreferrer"><strong>Edge</strong><span>Instalar pelo Microsoft Edge Add-ons</span></a>
+            <a class="store-link" href="https://addons.mozilla.org/pt-BR/firefox/addon/ambassador-referral-linker/" target="_blank" rel="noopener noreferrer"><strong>Firefox</strong><span>Instalar pelo Firefox Browser Add-ons</span></a>
+            <a class="store-link source-link" href="https://github.com/tkusal/ambassador-referral-linker" target="_blank" rel="noopener noreferrer"><strong>GitHub</strong><span>Ver código, documentação e suporte</span></a>
+          </div>
+        </div>
+        <p class="small-note">A extensão é uma continuação independente e uma refatoração do projeto original criado por Martin Brandl. Adicionar o Contributor ID manualmente continua sendo uma opção válida.</p>
       </div>
 
       <aside class="notice notice-warning">
@@ -411,6 +432,14 @@ window.MSA_LOCALES['pt-BR'] = {
         <article class="metric-card"><span class="metric-value">50</span><h3>Preferred Visitors</h3><p>Conteúdo Microsoft compartilhado com o Contributor ID.</p></article>
         <article class="metric-card"><span class="metric-value">1</span><h3>Evento aprovado</h3><p>Atividade que capacite participantes em tecnologia Microsoft.</p></article>
       </div>
+      <div class="resource-callout">
+        <div>
+          <span class="resource-label">ÁREA DO STUDENT AMBASSADOR</span>
+          <h3>Manual do programa e progresso trimestral</h3>
+          <p>Student Ambassadors, Associate Ambassadors e Senior Ambassadors podem consultar todas as regras e acompanhar o quadro de progressão dos requisitos trimestrais no SharePoint do programa.</p>
+        </div>
+        <a class="button button-primary" href="https://stdntpartners.sharepoint.com/sites/SAProgramHandbook" target="_blank" rel="noopener noreferrer">Abrir o SharePoint</a>
+      </div>
       <p>Os trimestres são janeiro a março, abril a junho, julho a setembro e outubro a dezembro. Cumprir os requisitos renova a participação. Quem não os cumpre pode ser removido do programa.</p>
       <div class="prose-grid">
         <article class="prose-card"><h3>Microsoft Rewards</h3><p>Ao atender também aos requisitos de recompensa, o Ambassador recebe 5.000 pontos. O código é pessoal, expira em 30 dias e costuma chegar até o dia 15 do mês seguinte.</p></article>
@@ -517,9 +546,9 @@ window.MSA_LOCALES['pt-BR'] = {
 
     <section class="content-section references-section" id="referencias" data-searchable>
       <div class="section-heading">
-        <span class="section-kicker">FONTES DE VERDADE</span>
-        <h2>Referências oficiais</h2>
-        <p>Use estas páginas e as mensagens recebidas da equipe para confirmar regras vigentes.</p>
+        <span class="section-kicker">FONTES E LEITURA COMPLEMENTAR</span>
+        <h2>Referências e recursos</h2>
+        <p>Use as páginas oficiais e as mensagens recebidas da equipe para confirmar regras vigentes. Os materiais comunitários oferecem contexto adicional.</p>
       </div>
       <ul class="reference-list">
         <li><a href="https://mvp.microsoft.com/studentambassadors/" target="_blank" rel="noopener noreferrer">Microsoft Student Ambassadors</a></li>
@@ -531,6 +560,9 @@ window.MSA_LOCALES['pt-BR'] = {
         <li><a href="https://learn.microsoft.com/credentials/applied-skills/?wt.mc_id=studentamb_365381" target="_blank" rel="noopener noreferrer">Microsoft Applied Skills</a></li>
         <li><a href="https://learn.microsoft.com/training/support/plans?wt.mc_id=studentamb_365381" target="_blank" rel="noopener noreferrer">Visão geral dos Microsoft Learn Plans</a></li>
         <li><a href="https://learn.microsoft.com/training/support/plans-create-manage?wt.mc_id=studentamb_365381" target="_blank" rel="noopener noreferrer">Criar e gerenciar Plans</a></li>
+        <li><a href="https://stdntpartners.sharepoint.com/sites/StudentAmbassadorsRegisteredMembersHandbook/SitePages/" target="_blank" rel="noopener noreferrer">Manual do Registered Member no SharePoint</a></li>
+        <li><a href="https://stdntpartners.sharepoint.com/sites/SAProgramHandbook" target="_blank" rel="noopener noreferrer">Manual do Student Ambassador no SharePoint</a></li>
+        <li><a href="https://rookieops.dev/posts/microsoft-student-ambassador-2026/" target="_blank" rel="noopener noreferrer">Artigo: Como se tornar Microsoft Student Ambassador em 2026</a></li>
       </ul>
     </section>
   `
