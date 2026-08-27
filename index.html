@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#0b6a65">
+    <meta name="description" content="Guia independente em português, espanhol e inglês para percorrer todas as etapas do Microsoft Student Ambassadors.">
+    <meta name="author" content="Thiago Kusal">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Guia Microsoft Student Ambassadors - LATAM">
+    <meta property="og:description" content="Do cadastro ao marco Senior, com trilhas, requisitos, benefícios e respostas rápidas.">
+    <meta property="og:url" content="https://msa-latam.github.io/">
+    <meta property="og:image" content="https://msa-latam.github.io/assets/images/journey/capa.webp">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Guia Microsoft Student Ambassadors - LATAM</title>
+    <link rel="canonical" href="https://msa-latam.github.io/">
+    <link rel="icon" type="image/png" href="assets/images/logo-programa.png">
+    <link rel="apple-touch-icon" href="assets/images/logo-programa.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script>
+      (() => {
+        const savedTheme = localStorage.getItem('msa-theme');
+        const theme = savedTheme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        document.documentElement.dataset.theme = theme;
+      })();
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Guia Microsoft Student Ambassadors, início">
+        <img src="assets/images/logo-programa.png" alt="" width="46" height="46">
+        <span><strong>Student Ambassadors</strong><small>Guia LATAM</small></span>
+      </a>
+
+      <div class="header-actions">
+        <label class="language-control">
+          <span class="sr-only">Idioma</span>
+          <span aria-hidden="true">🌎</span>
+          <select id="language-select" aria-label="Idioma da página">
+            <option value="pt-BR">Português</option>
+            <option value="es">Español</option>
+            <option value="en">English</option>
+          </select>
+        </label>
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Ativar tema escuro" title="Alternar tema">
+          <span class="theme-icon" aria-hidden="true">☾</span>
+        </button>
+        <button class="icon-button menu-button" id="menu-toggle" type="button" aria-label="Abrir navegação" aria-controls="sidebar" aria-expanded="false">
+          <span aria-hidden="true">☰</span>
+        </button>
+      </div>
+    </header>
+
+    <div class="page-shell" id="top">
+      <aside class="sidebar" id="sidebar" aria-label="Navegação da wiki">
+        <div class="search-box">
+          <label for="search-input" id="search-label">Buscar no guia</label>
+          <div class="search-field">
+            <span aria-hidden="true">⌕</span>
+            <input id="search-input" type="search" placeholder="Cadastro, trilhas, benefícios..." autocomplete="off">
+            <kbd>/</kbd>
+          </div>
+          <p id="search-status" class="search-status" role="status" aria-live="polite"></p>
+        </div>
+        <nav id="table-of-contents" aria-label="Nesta página"></nav>
+        <div class="sidebar-note">
+          <span class="status-dot" aria-hidden="true"></span>
+          <span id="verified-note">Conteúdo verificado em 21/08/2026</span>
+        </div>
+      </aside>
+
+      <main id="content" tabindex="-1">
+        <section class="hero section-card" id="inicio">
+          <div class="hero-copy">
+            <span class="eyebrow">GUIA INDEPENDENTE · LATAM</span>
+            <h1>Guia Microsoft Student Ambassadors</h1>
+            <p class="hero-lead">Do primeiro cadastro ao marco Senior, em uma jornada clara, prática e feita para a comunidade LATAM.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#jornada">Explorar a jornada</a>
+              <a class="button button-secondary" href="#faq">Ir para o FAQ</a>
+            </div>
+            <p class="freshness"><span aria-hidden="true">●</span> Atualizado em agosto de 2026</p>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <img src="assets/images/logo-programa.png" alt="">
+            <span class="spark spark-one">✦</span>
+            <span class="spark spark-two">✦</span>
+          </div>
+        </section>
+
+        <section class="content-section" id="jornada" data-searchable>
+          <div class="section-heading">
+            <span class="section-kicker">VISÃO GERAL</span>
+            <h2>A jornada em quatro etapas</h2>
+            <p>Entenda onde você está, qual é o próximo passo e quando cada título passa a valer.</p>
+          </div>
+          <div class="stage-grid">
+            <article class="stage-card stage-registered">
+              <span class="stage-number">01</span>
+              <div class="stage-icon" aria-hidden="true">✓</div>
+              <h3>Registered Member</h3>
+              <p>Cadastro concluído, acesso à comunidade inicial e preparação de uma trilha de contribuição.</p>
+              <a href="#registered">Ver requisitos <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="stage-card stage-ambassador">
+              <span class="stage-number">02</span>
+              <img src="assets/images/badges/ambassador.png" alt="Badge Student Ambassador">
+              <h3>Student Ambassador</h3>
+              <p>Convite aceito, onboarding concluído e início oficial no programa.</p>
+              <a href="#onboarding">Entender o onboarding <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="stage-card stage-associate">
+              <span class="stage-number">03</span>
+              <img src="assets/images/badges/associate.png" alt="Badge Associate Student Ambassador">
+              <h3>Associate Ambassador</h3>
+              <p>O primeiro marco de progressão, conquistado com um evento aprovado.</p>
+              <a href="#associate">Como avançar <span aria-hidden="true">→</span></a>
+            </article>
+            <article class="stage-card stage-senior">
+              <span class="stage-number">04</span>
+              <img src="assets/images/badges/senior.png" alt="Badge Senior Student Ambassador">
+              <h3>Senior Ambassador</h3>
+              <p>Reconhecimento por consistência, liderança e impacto demonstrável.</p>
+              <a href="#senior">Conhecer os critérios <span aria-hidden="true">→</span></a>
+            </article>
+          </div>
+        </section>
+
+        <section class="notice notice-info" data-searchable>
+          <span class="notice-icon" aria-hidden="true">i</span>
+          <div>
+            <strong>Este é um guia independente.</strong>
+            <p>Regras, metas e benefícios podem mudar. Confirme os detalhes no portal, no manual do membro e nos emails oficiais da sua rodada.</p>
+          </div>
+        </section>
+
+        <section class="content-section placeholder-section" id="registered" data-searchable>
+          <div class="section-heading">
+            <span class="section-kicker">PRÓXIMA ETAPA</span>
+            <h2>Do cadastro ao onboarding</h2>
+            <p>O conteúdo completo, as trilhas Influencer e Skiller, a progressão e o FAQ serão carregados nesta mesma experiência.</p>
+          </div>
+        </section>
+        <section id="onboarding" aria-label="Onboarding"></section>
+        <section id="associate" aria-label="Associate"></section>
+        <section id="senior" aria-label="Senior"></section>
+        <section id="faq" aria-label="Perguntas frequentes"></section>
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <p>Desenvolvido pelo Senior Student Ambassador <a href="https://github.com/tkusal" target="_blank" rel="noopener noreferrer">Thiago Kusal</a>.</p>
+      <p id="independent-footer">Conteúdo independente e não oficial.</p>
+    </footer>
+
+    <div class="mobile-overlay" id="mobile-overlay" hidden></div>
+    <button class="back-to-top" id="back-to-top" type="button" aria-label="Voltar ao topo">↑</button>
+
+    <dialog class="image-lightbox" id="image-lightbox">
+      <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Fechar imagem">×</button>
+      <img id="lightbox-image" src="assets/images/logo-programa.png" alt="">
+      <p id="lightbox-caption"></p>
+    </dialog>
+
+    <script src="assets/js/locales/pt-br.js"></script>
+    <script src="assets/js/locales/es.js"></script>
+    <script src="assets/js/locales/en.js"></script>
+    <script src="assets/js/app.js" defer></script>
+  </body>
+</html>

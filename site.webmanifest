@@ -1,0 +1,16 @@
+{
+  "name": "Guia Microsoft Student Ambassadors - LATAM",
+  "short_name": "Guia MSA LATAM",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f5f8f1",
+  "theme_color": "#0b6a65",
+  "icons": [
+    {
+      "src": "assets/images/logo-programa.png",
+      "sizes": "1080x1080",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
