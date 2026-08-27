@@ -177,6 +177,7 @@ window.MSA_LOCALES['pt-BR'] = {
       <div class="rich-text">
         <p>Registered Members recebem acesso à comunidade global de estudantes, orientadores e mentores no Discord, além de recursos, orientação e treinamento. O convite costuma chegar por email enviado por <code>sa-noreply@microsoft.com</code>.</p>
         <p>Para ficar elegível ao onboarding, conclua duas frentes: obtenha uma Microsoft Certification ou Microsoft Applied Skills emitida nos 12 meses anteriores ao onboarding e alcance a meta de uma das trilhas de contribuição. Você não precisa concluir as duas trilhas.</p>
+        <p>Durante essa etapa, o perfil permanece com o status <strong>Em revisão</strong> até que todos os requisitos para se tornar Student Ambassador sejam cumpridos. Apenas concluir o cadastro não altera esse status.</p>
       </div>
       <div class="resource-callout">
         <div>
