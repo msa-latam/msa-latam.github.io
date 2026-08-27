@@ -1,5 +1,7 @@
 # Como contribuir
 
+[Português do Brasil](CONTRIBUTING.md) | [Español](CONTRIBUTING.es.md) | [English](CONTRIBUTING.en.md)
+
 Obrigado pelo interesse em melhorar o Guia Microsoft Student Ambassadors - LATAM.
 
 ## Antes de começar

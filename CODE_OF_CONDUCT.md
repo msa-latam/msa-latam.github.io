@@ -1,5 +1,7 @@
 # Código de Conduta
 
+[Português do Brasil](CODE_OF_CONDUCT.md) | [Español](CODE_OF_CONDUCT.es.md) | [English](CODE_OF_CONDUCT.en.md)
+
 ## Nosso compromisso
 
 Nós, participantes, colaboradores e mantenedores, nos comprometemos a tornar a participação neste projeto uma experiência livre de assédio para todas as pessoas, independentemente de idade, aparência, deficiência, etnia, identidade ou expressão de gênero, nível de experiência, educação, condição socioeconômica, nacionalidade, raça, religião, identidade e orientação sexual.
